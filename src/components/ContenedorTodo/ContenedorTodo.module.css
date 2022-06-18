@@ -20,6 +20,12 @@
   margin: 10px;
   border-radius: 5px;
   word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
 }
 
 .divIcon {
@@ -28,4 +34,8 @@
 
 .spanIcon {
   justify-content: space-around;
+}
+
+.img{
+  cursor: pointer;
 }
