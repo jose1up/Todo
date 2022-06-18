@@ -1,0 +1,71 @@
+:root {
+  --color-letras: #f6eeed;
+  --color-border-naranja: #f24822;
+  --color-border-verde: #14ae5c;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedorPending {
+  position: fixed;
+  background-color: #fde4de60;
+  border-radius: 10px;
+  border: 2px solid var(--color-border-naranja);
+  width: 50%;
+  height: 90vh;
+  margin-right: 50px;
+  margin-left: 10px;
+  word-wrap: break-word;
+}
+
+.contenedorCompleted {
+  position: fixed;
+  background-color: #dcf3e748;
+  border-radius: 10px;
+  border: 2px solid var(--color-border-verde);
+  width: 46%;
+  height: 90vh;
+  margin-left: 50px;
+  margin-right: 10px;
+  left: 50%;
+  word-wrap: break-word;
+}
+
+.Todo {
+  color: var(--color-letras);
+  background-color: var(--color-border-naranja);
+  border-radius: 10px;
+  width: 55px;
+  height: 20px;
+  text-align-last: center;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0ch;
+  position: fixed;
+  top: 6rem;
+  left: 25rem;
+}
+
+.completed {
+  margin: 10px;
+  color: var(--color-letras);
+  background-color: var(--color-border-verde);
+  border-radius: 10px;
+  width: 150px;
+  text-align-last: center;
+  padding: 10px;
+  box-shadow: 0ch;
+  position: fixed;
+  top: 6rem;
+  right: 21rem;
+}
+
+.flecha {
+  left: 600px;
+  position: static;
+  width: 90vh;
+  height: 90vh;
+}

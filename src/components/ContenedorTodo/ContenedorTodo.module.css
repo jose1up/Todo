@@ -1,0 +1,31 @@
+.ContenedorTodoPending {
+  width: 150px;
+  height: 150px;
+  background-color: #ffafa3;
+  margin: 10px;
+  border-radius: 5px;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.ContenedorTodoCompleted {
+  width: 150px;
+  height: 150px;
+  background-color: #85e0a3;
+  margin: 10px;
+  border-radius: 5px;
+  word-wrap: break-word;
+}
+
+.divIcon {
+  align-items: inherit;
+}
+
+.spanIcon {
+  justify-content: space-around;
+}
